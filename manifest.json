@@ -1,0 +1,50 @@
+{
+  "name": "fikriwildannugraha.com",
+  "short_name": "fikriwildannugraha.com",
+  "theme_color": "#333333",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "https://4.bp.blogspot.com/-HamO9O0DzJg/XNNgSjCQM-I/AAAAAAAACjs/o_oNsLh5sMA2xsPAUTh3ZuCsJ29CfIDugCLcBGAs/s72/icon.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "https://4.bp.blogspot.com/-HamO9O0DzJg/XNNgSjCQM-I/AAAAAAAACjs/o_oNsLh5sMA2xsPAUTh3ZuCsJ29CfIDugCLcBGAs/s96/icon.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "https://4.bp.blogspot.com/-HamO9O0DzJg/XNNgSjCQM-I/AAAAAAAACjs/o_oNsLh5sMA2xsPAUTh3ZuCsJ29CfIDugCLcBGAs/s128/icon.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "https://4.bp.blogspot.com/-HamO9O0DzJg/XNNgSjCQM-I/AAAAAAAACjs/o_oNsLh5sMA2xsPAUTh3ZuCsJ29CfIDugCLcBGAs/s144/icon.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "https://4.bp.blogspot.com/-HamO9O0DzJg/XNNgSjCQM-I/AAAAAAAACjs/o_oNsLh5sMA2xsPAUTh3ZuCsJ29CfIDugCLcBGAs/s152/icon.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "https://4.bp.blogspot.com/-HamO9O0DzJg/XNNgSjCQM-I/AAAAAAAACjs/o_oNsLh5sMA2xsPAUTh3ZuCsJ29CfIDugCLcBGAs/s192/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://4.bp.blogspot.com/-HamO9O0DzJg/XNNgSjCQM-I/AAAAAAAACjs/o_oNsLh5sMA2xsPAUTh3ZuCsJ29CfIDugCLcBGAs/s384/icon.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "https://4.bp.blogspot.com/-HamO9O0DzJg/XNNgSjCQM-I/AAAAAAAACjs/o_oNsLh5sMA2xsPAUTh3ZuCsJ29CfIDugCLcBGAs/s512/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
