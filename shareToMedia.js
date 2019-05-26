@@ -12,8 +12,8 @@ sharing.getElementsByClassName("iconMenu")[0].innerHTML = "<svg viewBox='0 0 430
 var career = document.getElementById("career");
 career.getElementsByClassName("iconMenu")[0].innerHTML = "<svg viewBox='0 0 510 510'><path d='M459,114.75H357v-51l-51-51H204l-51,51v51H51c-28.05,0-51,22.95-51,51v280.5c0,28.05,22.95,51,51,51h408c28.05,0,51-22.95,51-51v-280.5C510,137.7,487.05,114.75,459,114.75z M306,114.75H204v-51h102V114.75z' fill='#FFFFFF'/></svg>";
 
-var containerIconMenu = document.getElementById("containerIconMenu");
-containerIconMenu.innerHTML = "<svg id='iconDrawer' viewBox='0 0 459 459'><path d='M0,382.5h459v-51H0V382.5z M0,255h459v-51H0V255z M0,76.5v51h459v-51H0z' fill='#FFFFFF'/></svg><svg id='iconCrossDrawer' viewBox='0 0 357 357'><polygon fill='#FFFFFF' points='357,35.7 321.3,0 178.5,142.8 35.7,0 0,35.7 142.8,178.5 0,321.3 35.7,357 178.5,214.2 321.3,357 357,321.3 214.2,178.5 '/></svg>";
+var containerIconDrawer = document.getElementById("containerIconDrawer");
+containerIconDrawer.innerHTML = "<svg id='iconDrawer' viewBox='0 0 459 459'><path d='M0,382.5h459v-51H0V382.5z M0,255h459v-51H0V255z M0,76.5v51h459v-51H0z' fill='#FFFFFF'/></svg><svg id='iconCrossDrawer' viewBox='0 0 357 357'><polygon fill='#FFFFFF' points='357,35.7 321.3,0 178.5,142.8 35.7,0 0,35.7 142.8,178.5 0,321.3 35.7,357 178.5,214.2 321.3,357 357,321.3 214.2,178.5 '/></svg>";
 var containerIconSearch = document.getElementById("containerIconSearch");
 containerIconSearch.innerHTML = "<svg id='iconSearch' viewBox='0 0 446.25 446.25'><path d='M318.75,280.5h-20.4l-7.649-7.65c25.5-28.05,40.8-66.3,40.8-107.1C331.5,73.95,257.55,0,165.75,0S0,73.95,0,165.75S73.95,331.5,165.75,331.5c40.8,0,79.05-15.3,107.1-40.8l7.65,7.649v20.4L408,446.25L446.25,408L318.75,280.5z M165.75,280.5C102,280.5,51,229.5,51,165.75S102,51,165.75,51S280.5,102,280.5,165.75S229.5,280.5,165.75,280.5z' fill='#FFFFFF'/></svg><svg id='iconCrossSearch' viewBox='0 0 357 357'><polygon fill='#FFFFFF' points='357,35.7 321.3,0 178.5,142.8 35.7,0 0,35.7 142.8,178.5 0,321.3 35.7,357 178.5,214.2 321.3,357 357,321.3 214.2,178.5 '/></svg>";
 
