@@ -12,10 +12,7 @@ sharing.getElementsByClassName("iconMenu")[0].innerHTML = "<svg viewBox='0 0 430
 var career = document.getElementById("career");
 career.getElementsByClassName("iconMenu")[0].innerHTML = "<svg viewBox='0 0 510 510'><path d='M459,114.75H357v-51l-51-51H204l-51,51v51H51c-28.05,0-51,22.95-51,51v280.5c0,28.05,22.95,51,51,51h408c28.05,0,51-22.95,51-51v-280.5C510,137.7,487.05,114.75,459,114.75z M306,114.75H204v-51h102V114.75z' fill='#FFFFFF'/></svg>";
 
-var containerIconDrawer = document.getElementById("containerIconDrawer");
-containerIconDrawer.innerHTML = "<svg id='iconDrawer' viewBox='0 0 459 459'><path d='M0,382.5h459v-51H0V382.5z M0,255h459v-51H0V255z M0,76.5v51h459v-51H0z' fill='#FFFFFF'/></svg><svg id='iconCrossDrawer' viewBox='0 0 357 357'><polygon fill='#FFFFFF' points='357,35.7 321.3,0 178.5,142.8 35.7,0 0,35.7 142.8,178.5 0,321.3 35.7,357 178.5,214.2 321.3,357 357,321.3 214.2,178.5 '/></svg>";
-var containerIconSearch = document.getElementById("containerIconSearch");
-containerIconSearch.innerHTML = "<svg id='iconSearch' viewBox='0 0 446.25 446.25'><path d='M318.75,280.5h-20.4l-7.649-7.65c25.5-28.05,40.8-66.3,40.8-107.1C331.5,73.95,257.55,0,165.75,0S0,73.95,0,165.75S73.95,331.5,165.75,331.5c40.8,0,79.05-15.3,107.1-40.8l7.65,7.649v20.4L408,446.25L446.25,408L318.75,280.5z M165.75,280.5C102,280.5,51,229.5,51,165.75S102,51,165.75,51S280.5,102,280.5,165.75S229.5,280.5,165.75,280.5z' fill='#FFFFFF'/></svg><svg id='iconCrossSearch' viewBox='0 0 357 357'><polygon fill='#FFFFFF' points='357,35.7 321.3,0 178.5,142.8 35.7,0 0,35.7 142.8,178.5 0,321.3 35.7,357 178.5,214.2 321.3,357 357,321.3 214.2,178.5 '/></svg>";
+
 
 //icon social
 var twitterShareButton = document.getElementById("twitterShareButton");
@@ -50,7 +47,12 @@ if (isItem === true) {
 }
 
 //icon Index
-
+if (isIndex === true) {
+	var footerIndex = document.getElementsByClassName("footerIndex");
+	for (i = 0;i < footerIndex.length;i++) {
+		footerIndex[i].getElementsByClassName("icon")[1].innerHTML = "<svg viewBox='0 0 512 512'><path d='M265.344,16C129.152,16,18.656,123.424,18.656,256c0,35.488,7.84,69.184,22.176,99.52L0,452.928l105.824-13.856 C148.832,474.56,204.512,496,265.344,496C401.664,496,512,388.576,512,256S401.664,16,265.344,16z M400,255.296 C400,329.12,350.432,384,265.632,384H176V128h90.912C351.072,128,400,180.832,400,254.624V255.296z' fill=' #2e9fff'/><path d='M267.872,190.784h-26.56v130.24h26.56c39.104,0,65.024-23.392,65.024-64.864v-0.672 C332.896,214.528,306.976,190.784,267.872,190.784z' fill='#2e9fff'/></svg>";
+	}
+}
 
 //icon Disqus
 if (isItem === true) {
