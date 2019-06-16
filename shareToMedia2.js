@@ -83,8 +83,8 @@ var stmBackground = document.getElementById("stmBackground");
 var stmContainerParent = document.getElementById("stmContainerParent");
 var isStmActive = false;
 
-stmBackground.addEventListener("click",function() {shareToMedia(event);});
-stm.addEventListener("click",function() {shareToMedia(event);});
+stmBackground.addEventListener("click",shareToMedia);
+stm.addEventListener("click",shareToMedia);
 
 function twitterShare() {
 	var jumCharLink = 1 + 23;
